@@ -1,2 +1,2 @@
 # jiranismart
-Business content website with admin dashboard
+Business content webapp with admin dashboard
