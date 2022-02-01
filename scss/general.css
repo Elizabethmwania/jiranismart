@@ -1,0 +1,355 @@
+#accordion button {
+    font-size: 16px;
+    color: #0f2137;
+    font-weight: 500;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 2, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+    #accordion button {
+      font-size: 14px;
+    }
+  }
+  
+  /* line 11, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion .card {
+    margin-bottom: 15px;
+    border-radius: 0;
+    border-radius: 0 !important;
+    margin-bottom: 30px;
+  }
+  
+  /* line 16, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion .card .card-header {
+    background-color: transparent;
+    padding: 4px 14px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 16, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+    #accordion .card .card-header {
+      padding: 4px 0;
+    }
+  }
+  
+  /* line 23, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion .card .card-body {
+    font-size: 16px;
+    line-height: 28px;
+    color: #888888;
+    padding: 10px 30px 32px;
+  }
+  
+  /* line 29, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion .card .collapse {
+    border-bottom: 1px solid #d7dbe3;
+  }
+  
+  /* line 31, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion .card .collapse.show {
+    border-bottom: 1px solid transparent;
+  }
+  
+  /* line 39, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion h5 {
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* line 65, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion h5 button.btn.btn-link:after {
+    position: absolute;
+    content: "\e648";
+    top: 9px;
+    right: 12px;
+    height: auto;
+    font-family: 'themify';
+    color: #0f2137;
+    font-size: 14px;
+    left: -24px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 65, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+    #accordion h5 button.btn.btn-link:after {
+      right: 10px;
+    }
+  }
+  
+  /* line 81, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion h5 button.btn.btn-link.collapsed:after {
+    content: "\e64b";
+    color: #0f2137;
+    font-size: 14px;
+  }
+  
+  /* line 88, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion h5 button i {
+    height: 36px;
+    width: 36px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    margin-right: 20px;
+    color: #fff;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 88, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+    #accordion h5 button i {
+      display: none;
+    }
+  }
+  
+  /* line 104, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion h5 button.btn.btn-link.collapsed i {
+    background: #f4f7f9;
+    color: #0f2137;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 104, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+    #accordion h5 button.btn.btn-link.collapsed i {
+      display: none;
+    }
+  }
+  
+  /* line 116, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion .btn-link:hover {
+    color: #182028;
+    text-decoration: none;
+  }
+  
+  /* line 120, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion.scss */
+  #accordion .btn {
+    text-align: left !important;
+  }
+  
+  /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area {
+    position: relative;
+  }
+  
+  /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area.extra_padding {
+    margin-top: 150px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area.extra_padding {
+      margin-top: 50px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area.extra_padding {
+      margin-top: 100px;
+    }
+  }
+  
+  @media (min-width: 991px) {
+    /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area {
+      height: 700px !important;
+    }
+  }
+  
+  /* line 15, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area::before {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    top: 0;
+    height: 100%;
+    content: '';
+    background-image: url(../img/faq/faq.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 15, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area::before {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 15, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area::before {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  
+  /* line 40, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .accordion_thumb {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 68px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 40, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area .accordion_thumb {
+      padding-left: 0;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 40, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area .accordion_thumb {
+      padding-left: 0;
+    }
+  }
+  
+  /* line 50, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .accordion_thumb img {
+    width: 100%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+  }
+  
+  /* line 55, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask {
+    padding-top: 130px;
+    padding-bottom: 130px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 55, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area .faq_ask {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 55, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area .faq_ask {
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  }
+  
+  /* line 66, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask h3 {
+    font-size: 44px;
+    font-weight: 400;
+    color: #040E27;
+    margin-bottom: 50px;
+  }
+  
+  /* line 73, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask #accordion .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: none;
+    border-radius: .25rem;
+    border-bottom: 1px solid #E8E8E8 !important;
+  }
+  
+  /* line 90, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask #accordion .card .card-header {
+    background-color: transparent;
+    padding: 4px 14px;
+    border: none;
+  }
+  
+  /* line 95, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask #accordion button {
+    font-size: 18px;
+    color: #040E27 !important;
+    font-weight: 400 !important;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 99, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+    .accordion_area .faq_ask #accordion button span {
+      display: none;
+    }
+  }
+  
+  /* line 105, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask #accordion .card .card-header {
+    background-color: transparent;
+    padding: 4px 30px;
+  }
+  
+  /* line 119, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask #accordion .card .card-body {
+    font-size: 15px;
+    line-height: 28px;
+    color: #727272;
+    padding: 10px 30px 32px;
+    font-weight: 400;
+    line-height: 28px;
+  }
+  
+  /* line 129, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .faq_ask #accordion .btn-link.focus, .accordion_area .faq_ask #accordion .btn-link:focus {
+    text-decoration: none;
+    border-color: transparent;
+    box-shadow: none;
+  }
+  
+  /* line 137, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0;
+    border-radius: .25rem;
+    margin-bottom: 9px !important;
+  }
+  
+  /* line 154, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
+  .accordion_area .btn {
+    white-space: normal !important;
+  }
